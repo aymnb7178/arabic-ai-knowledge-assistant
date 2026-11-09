@@ -1,0 +1,122 @@
+[
+  {
+    "lang": "en",
+    "question": "How do I find out how many values are missing in a DataFrame column?",
+    "expected_source": "python_data_analysis_tips_en.md",
+    "expected_snippet": "isna().sum()"
+  },
+  {
+    "lang": "en",
+    "question": "Why is iterrows slow and what should I use instead?",
+    "expected_source": "python_data_analysis_tips_en.md",
+    "expected_snippet": "vectorised"
+  },
+  {
+    "lang": "en",
+    "question": "How can I stop pandas from silently duplicating rows when joining two tables?",
+    "expected_source": "python_data_analysis_tips_en.md",
+    "expected_snippet": "validate"
+  },
+  {
+    "lang": "en",
+    "question": "What should I do so that my analysis gives the same results every time?",
+    "expected_source": "python_data_analysis_tips_en.md",
+    "expected_snippet": "random seeds"
+  },
+  {
+    "lang": "en",
+    "question": "How do I avoid cut-off labels when saving a matplotlib figure?",
+    "expected_source": "python_data_analysis_tips_en.md",
+    "expected_snippet": "tight_layout"
+  },
+  {
+    "lang": "en",
+    "question": "What is the 3-2-1 backup rule?",
+    "expected_source": "cybersecurity_basics_en.md",
+    "expected_snippet": "three copies"
+  },
+  {
+    "lang": "en",
+    "question": "Why is SMS a weaker second factor than an authenticator app?",
+    "expected_source": "cybersecurity_basics_en.md",
+    "expected_snippet": "SIM swapping"
+  },
+  {
+    "lang": "en",
+    "question": "What are the warning signs of a phishing email?",
+    "expected_source": "cybersecurity_basics_en.md",
+    "expected_snippet": "urgent language"
+  },
+  {
+    "lang": "en",
+    "question": "What should I do first if I think my laptop has been hacked?",
+    "expected_source": "cybersecurity_basics_en.md",
+    "expected_snippet": "disconnect the device"
+  },
+  {
+    "lang": "en",
+    "question": "When was Saudi Vision 2030 announced?",
+    "expected_source": "vision2030_facts_en.txt",
+    "expected_snippet": "April 2016"
+  },
+  {
+    "lang": "en",
+    "question": "What is the role of the Public Investment Fund?",
+    "expected_source": "vision2030_facts_en.txt",
+    "expected_snippet": "Public Investment Fund"
+  },
+  {
+    "lang": "en",
+    "question": "Which giga-projects are linked to the plan?",
+    "expected_source": "vision2030_facts_en.txt",
+    "expected_snippet": "NEOM"
+  },
+  {
+    "lang": "ar",
+    "question": "ما هي قاعدة النسخ الاحتياطي 3-2-1؟",
+    "expected_source": "cybersecurity_basics_ar.md",
+    "expected_snippet": "ثلاث نسخ"
+  },
+  {
+    "lang": "ar",
+    "question": "لماذا تعد كلمة المرور الطويلة أفضل من القصيرة المعقدة؟",
+    "expected_source": "cybersecurity_basics_ar.md",
+    "expected_snippet": "الطول أهم"
+  },
+  {
+    "lang": "ar",
+    "question": "كيف أعرف أن الرسالة قد تكون تصيداً احتيالياً؟",
+    "expected_source": "cybersecurity_basics_ar.md",
+    "expected_snippet": "لغة الاستعجال"
+  },
+  {
+    "lang": "ar",
+    "question": "ماذا يعني مبدأ أقل الصلاحيات؟",
+    "expected_source": "cybersecurity_basics_ar.md",
+    "expected_snippet": "الوصول اللازم لمهمته"
+  },
+  {
+    "lang": "ar",
+    "question": "متى أُعلنت رؤية السعودية 2030؟",
+    "expected_source": "vision2030_ar.txt",
+    "expected_snippet": "أبريل 2016"
+  },
+  {
+    "lang": "ar",
+    "question": "ما هي محاور الرؤية الثلاثة؟",
+    "expected_source": "vision2030_ar.txt",
+    "expected_snippet": "مجتمع حيوي"
+  },
+  {
+    "lang": "ar",
+    "question": "ما هو دور صندوق الاستثمارات العامة؟",
+    "expected_source": "vision2030_ar.txt",
+    "expected_snippet": "صندوق الاستثمارات العامة"
+  },
+  {
+    "lang": "ar",
+    "question": "ما المشاريع العملاقة المرتبطة بالرؤية؟",
+    "expected_source": "vision2030_ar.txt",
+    "expected_snippet": "نيوم"
+  }
+]

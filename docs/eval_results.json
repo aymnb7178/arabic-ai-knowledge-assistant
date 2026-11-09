@@ -1,0 +1,522 @@
+{
+  "n_questions": 20,
+  "n_chunks": 43,
+  "methods": {
+    "hybrid": {
+      "source_hit@1": 0.95,
+      "source_hit@3": 1.0,
+      "passage_hit@1": 0.9,
+      "passage_hit@3": 0.95,
+      "passage_mrr@3": 0.9166666666666666,
+      "per_question": [
+        {
+          "question": "How do I find out how many values are missing in a DataFrame column?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "Why is iterrows slow and what should I use instead?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "How can I stop pandas from silently duplicating rows when joining two tables?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What should I do so that my analysis gives the same results every time?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": null
+        },
+        {
+          "question": "How do I avoid cut-off labels when saving a matplotlib figure?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What is the 3-2-1 backup rule?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "Why is SMS a weaker second factor than an authenticator app?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What are the warning signs of a phishing email?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What should I do first if I think my laptop has been hacked?",
+          "lang": "en",
+          "source_rank": 3,
+          "passage_rank": 3
+        },
+        {
+          "question": "When was Saudi Vision 2030 announced?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What is the role of the Public Investment Fund?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "Which giga-projects are linked to the plan?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما هي قاعدة النسخ الاحتياطي 3-2-1؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "لماذا تعد كلمة المرور الطويلة أفضل من القصيرة المعقدة؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "كيف أعرف أن الرسالة قد تكون تصيداً احتيالياً؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ماذا يعني مبدأ أقل الصلاحيات؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "متى أُعلنت رؤية السعودية 2030؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما هي محاور الرؤية الثلاثة؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما هو دور صندوق الاستثمارات العامة؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما المشاريع العملاقة المرتبطة بالرؤية؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        }
+      ]
+    },
+    "bm25": {
+      "source_hit@1": 0.9,
+      "source_hit@3": 1.0,
+      "passage_hit@1": 0.9,
+      "passage_hit@3": 0.95,
+      "passage_mrr@3": 0.9166666666666666,
+      "per_question": [
+        {
+          "question": "How do I find out how many values are missing in a DataFrame column?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "Why is iterrows slow and what should I use instead?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "How can I stop pandas from silently duplicating rows when joining two tables?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What should I do so that my analysis gives the same results every time?",
+          "lang": "en",
+          "source_rank": 3,
+          "passage_rank": null
+        },
+        {
+          "question": "How do I avoid cut-off labels when saving a matplotlib figure?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What is the 3-2-1 backup rule?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "Why is SMS a weaker second factor than an authenticator app?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What are the warning signs of a phishing email?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What should I do first if I think my laptop has been hacked?",
+          "lang": "en",
+          "source_rank": 3,
+          "passage_rank": 3
+        },
+        {
+          "question": "When was Saudi Vision 2030 announced?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What is the role of the Public Investment Fund?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "Which giga-projects are linked to the plan?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما هي قاعدة النسخ الاحتياطي 3-2-1؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "لماذا تعد كلمة المرور الطويلة أفضل من القصيرة المعقدة؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "كيف أعرف أن الرسالة قد تكون تصيداً احتيالياً؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ماذا يعني مبدأ أقل الصلاحيات؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "متى أُعلنت رؤية السعودية 2030؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما هي محاور الرؤية الثلاثة؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما هو دور صندوق الاستثمارات العامة؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما المشاريع العملاقة المرتبطة بالرؤية؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        }
+      ]
+    },
+    "tfidf_word": {
+      "source_hit@1": 0.95,
+      "source_hit@3": 0.95,
+      "passage_hit@1": 0.9,
+      "passage_hit@3": 0.9,
+      "passage_mrr@3": 0.9,
+      "per_question": [
+        {
+          "question": "How do I find out how many values are missing in a DataFrame column?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "Why is iterrows slow and what should I use instead?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "How can I stop pandas from silently duplicating rows when joining two tables?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What should I do so that my analysis gives the same results every time?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": null
+        },
+        {
+          "question": "How do I avoid cut-off labels when saving a matplotlib figure?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What is the 3-2-1 backup rule?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "Why is SMS a weaker second factor than an authenticator app?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What are the warning signs of a phishing email?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What should I do first if I think my laptop has been hacked?",
+          "lang": "en",
+          "source_rank": null,
+          "passage_rank": null
+        },
+        {
+          "question": "When was Saudi Vision 2030 announced?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What is the role of the Public Investment Fund?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "Which giga-projects are linked to the plan?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما هي قاعدة النسخ الاحتياطي 3-2-1؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "لماذا تعد كلمة المرور الطويلة أفضل من القصيرة المعقدة؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "كيف أعرف أن الرسالة قد تكون تصيداً احتيالياً؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ماذا يعني مبدأ أقل الصلاحيات؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "متى أُعلنت رؤية السعودية 2030؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما هي محاور الرؤية الثلاثة؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما هو دور صندوق الاستثمارات العامة؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما المشاريع العملاقة المرتبطة بالرؤية؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        }
+      ]
+    },
+    "tfidf_char": {
+      "source_hit@1": 0.95,
+      "source_hit@3": 1.0,
+      "passage_hit@1": 0.9,
+      "passage_hit@3": 0.95,
+      "passage_mrr@3": 0.9166666666666667,
+      "per_question": [
+        {
+          "question": "How do I find out how many values are missing in a DataFrame column?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "Why is iterrows slow and what should I use instead?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "How can I stop pandas from silently duplicating rows when joining two tables?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What should I do so that my analysis gives the same results every time?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 3
+        },
+        {
+          "question": "How do I avoid cut-off labels when saving a matplotlib figure?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What is the 3-2-1 backup rule?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "Why is SMS a weaker second factor than an authenticator app?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What are the warning signs of a phishing email?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What should I do first if I think my laptop has been hacked?",
+          "lang": "en",
+          "source_rank": 3,
+          "passage_rank": null
+        },
+        {
+          "question": "When was Saudi Vision 2030 announced?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "What is the role of the Public Investment Fund?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "Which giga-projects are linked to the plan?",
+          "lang": "en",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما هي قاعدة النسخ الاحتياطي 3-2-1؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "لماذا تعد كلمة المرور الطويلة أفضل من القصيرة المعقدة؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "كيف أعرف أن الرسالة قد تكون تصيداً احتيالياً؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ماذا يعني مبدأ أقل الصلاحيات؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "متى أُعلنت رؤية السعودية 2030؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما هي محاور الرؤية الثلاثة؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما هو دور صندوق الاستثمارات العامة؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        },
+        {
+          "question": "ما المشاريع العملاقة المرتبطة بالرؤية؟",
+          "lang": "ar",
+          "source_rank": 1,
+          "passage_rank": 1
+        }
+      ]
+    }
+  }
+}
