@@ -124,10 +124,6 @@ Covers normalisation rules, tokenisation, loaders (including a generated `.docx`
 - A bigger, independently written evaluation set.
 - Real `LLMBackend` implementations with citation checking.
 
-## Built with AI assistance
-
-This project was built with the help of an AI assistant (Claude). The code, tests, sample documents and README were drafted with AI help; the numbers above are pasted from real runs of this repository. Review it before relying on it.
-
 ## License
 
 MIT, see [LICENSE](LICENSE).
